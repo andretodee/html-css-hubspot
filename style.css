@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  height: 150px;
+}
+
+.container{
+  width: 60%;
+  height: 75px;
+  margin: auto;
+  position: relative;
+}
+
+.clearfix::after{
+  content: ""
+  display: table;
+  clear: both;
+}
+
+#header-top{
+  height: 75px;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  font-size: 15px;
+}
+
+#leftside-top{
+  width: 50%;
+  height: 75px;
+  float: left;
+}
+
+#leftside-top a{
+  line-height: 75px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#rightside-top{
+  width: 50%;
+  height: 75px;
+  float: right;
+}
+
+#rightside-top button{
+  float: right;
+  font-size: 12px;
+  margin: 20px 0;
+  margin-left: 10px;
+}
+
+.button-white{
+  color: orange;
+  background-color: white;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.button-orange{
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#header-bottom{
+  height: 75px;
+}
+
+#leftside-bottom{
+  width: 40%;
+  height: 75px;
+  float: left;
+}
+
+#leftside-bottom img{
+  margin: 20px 0;
+}
+
+
+#rightside-bottom{
+  width: 60%;
+  height: 75px;
+  float: right;
+}
+
+#rightside-bottom ul li{
+  list-style-type: none;
+  float: right;
+  line-height: 75px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+#jumbo{
+height: 700px;
+background-image: url(https://files.slack.com/files-pri/T91QPE3BP-FP2EWTZ0A/immagine.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: pink;
+border-bottom: 3px solid black;
+}
+
+.jumbo-text{
+  width: 40%;
+  position: absolute;
+  top: 120%;
+  left: 0;
+}
+
+.jumbo-text-top{
+  margin-bottom: 30px;
+}
+
+.jumbo-text-top h1{
+  color: grey;
+  font-size: 63px;
+}
+
+.jumbo-text-bottom p{
+  color: grey;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.jumbo-text-bottom button{
+  font-size: 15px;
+  padding: 25px 50px;
+  margin-bottom: 20px;
+}
+
+.small{
+  width: 40%;
+  color: grey;
+}
+
+#middle{
+  height: 1500px;
+  background-color: lightgrey;
+}
+
+#middle-top{
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.cube img{
+  width: 25%;
+  position: relative;
+  top: 70px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.middle-top-text{
+  width: 70%;
+  margin: 75px auto 0px;
+  text-align: center;
+}
+
+#middle-top h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: black.
+}
+
+.middle-top-text p{
+  font-size: 17px;
+}
+
+
+#middle-centre{
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 25px 50px;
+}
+
+#middle-centre img{
+  width: 250px;
+  float: left;
+}
+
+.middle-centre-text{
+  width: 65%
+}
+
+.middle-centre-text p{
+  margin: 20px 0;
+}
+
+.middle-centre-text h2{
+  margin-bottom: 20px;
+}
+
+.middle-centre-text ul li{
+  float: left;
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+#middle-bottom{
+  height: 550px;
+  margin-bottom: 50px;
+}
+
+#middle-button{
+  margin-left: 100px;
+}
+
+#middle-button button{
+  padding: 10px 20px;
+  font-size: 15px;
+
+
+}
+
+.middle-bottom{
+  height: 550px;
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+}
+
+.centre{
+  margin: 0 50px;
+}
